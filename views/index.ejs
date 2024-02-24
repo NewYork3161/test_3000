@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1>Hello</h1>
+    <ul>
+        <% for(_FindAll of FindAll){%>
+       <li><%= _FindAll.fullname %></li> 
+       <li><%= _FindAll.email %></li> 
+       <li><%= _FindAll.speciesName %></li> 
+       <li><%= _FindAll.post %></li> 
+       <li><%= _FindAll.image %></li> 
+
+
+       <% } %>
+    </ul>
+</body>
+</html>
